@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Burçin Karimov</title>
+</head>
+<body>
+  <header>
+    <img src="./assets/profilepic.jpg" alt="profile picture">
+    <div>
+      <h1>Burçin Karimov</h1>
+      <h3>Frontend Developer</h3>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#contact_info">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="info">
+      <div id="contact_info">
+        <h2>Contact Info</h2>
+        <p>Email: <a href="mailto:burcinkarimov@gmail.com">burcinkarimov@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/burcinkarimov">burcinkarimov</a></p>
+        <p>Location: Eskişehir, Turkey</p>
+      </div>
+      <div class="about_me">
+        <h2>About Me</h2>
+        <p>After working as a geologist and then later on as an English teacher, at the beginning of 2022, I decided to pursue a career in what I like doing and started learning programming. I’ve spent about 8 months learning the basics of front-end development and now wish to deepen my knowledge with RS School’s course and start my career in this field. I enjoy almost all aspects of web development, especially the constant need for learning and challenging the brain.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+        <ul class="skills_list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript, ES6</li>
+          <li>Git, GitHub</li>
+          <li>Responsive Web Design</li>
+          <li>TypeScript</li>
+          <li>React (basic)</li>
+        </ul>
+    </section>
+
+    <section id="code">
+      <h2>Code Example</h2>
+      <div class="codeblock">
+        <pre><code>
+    // Write a function that outputs the longest maxString from array to output.
+
+    const out = document.querySelector(".out");
+    const btn = document.querySelector(".btn");
+    let arr = ['Your','payment','method','will','automatically','be','charged','in','advance','every'];
+
+    function max() {
+      let maxString = [];
+      let maxStringNum = arr[0].length;
+      for (let i = 0; i &lt; arr.length; i++) {
+        if (arr[i].length > maxStringNum) {
+          maxStringNum = arr[i].length;
+          maxString = arr[i];
+        }
+      }
+      out.innerText = maxString;
+    }
+    btn.onclick = max;
+        </code></pre>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Project Examples</h2>
+      <p>A few of the projects I did are below and the rest can be found on my GitHub.</p>
+      <ul>
+        <li>A calculator I did using JavaScript: <a href="https://github.com/burcinkarimov/calculator">Calculator</a></li>
+        <li>A to-do list with Local Storage using JavaScript: <a href="https://github.com/burcinkarimov/todo">To-Do List</a></li>
+        <li>A slider I did using JavaScript: <a href="https://github.com/burcinkarimov/slider">Slider</a></li>
+      </ul>
+    </section>
+
+    <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Middle East Technical University (Ankara, Turkey) - Geological Engineering (B.Sc.)</li>
+      <li>Teaching English as a Foreign Language Certificate (TEFL)</li>
+      <li>ITGid JavaScript Course</li>
+      <li>React Course on Scrimba</li>
+    </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul class="language_list">
+        <li>Turkish (Native)</li>
+        <li>English (C2/Bilingual)</li>
+        <li>Russian (A1)</li>
+      </ul>
+      <h4>English</h4>
+      <p>I’ve been speaking English since childhood and my university education was 100% in English. I also have a TEFL certificate which allows me to teach English anywhere in the world, and I spent about one year abroad in Russia teaching English in a language school to students of all levels. I mostly speak in English in my daily life as I have a multi-national family.</p>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/burcinkarimov" class="github_link">Visit my GitHub</a>
+    <p>October 2022</p>
+    <a href="https://rs.school/"><img src="./assets/rs_school_js.svg" alt="rs school logo"></a>
+  </footer>
+</body>
+</html>
