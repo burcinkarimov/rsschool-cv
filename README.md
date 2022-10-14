@@ -1,0 +1,1 @@
+https://burcinkarimov.github.io/rsschool-cv/

@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 2em auto;
+  width: 65%;
+  box-shadow: 0 0 10px #aaa;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 5px -5px #aaa;
+  text-align: center;
+  width: 100%;
+  padding: 3em;
+}
+
+main {
+  width: 100%;
+  padding: 3em;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.info h2 {
+  margin-bottom: 1em;
+}
+
+#contact_info {
+  width: 40%;
+  padding: 1em;
+}
+
+#contact_info p a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact_info p a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#contact_info p a:hover {
+  color: #E2725B;
+}
+
+.about_me {
+  width: 60%;
+  border-left: 1px solid #aaa;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav ul li {
+  padding: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+nav ul li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #E2725B;
+  border-bottom: 1px solid #E2725B;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+#skills h2 {
+  text-align: center;
+  margin: 3em 0 1em;
+}
+
+.skills_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skills_list li {
+  box-shadow: 5px 5px 5px #FBCEB1;
+  border: 1px solid #FBCEB1;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+
+#code h2 {
+  text-align: center;
+  margin: 3em 0 1em;
+}
+
+.codeblock {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#projects {
+  text-align: center;
+}
+
+#projects h2 {
+  text-align: center;
+  margin: 3em 0 1em;
+}
+
+#projects p {
+  margin: 1.5em;
+}
+
+#projects ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+}
+
+#projects li {
+  padding: 2em;
+  width: 30%;
+  box-shadow: 3px 3px 5px #aaa;
+  background-color: #FBCEB1;
+}
+
+#projects li a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #aaa;
+  padding: 0.5em;
+  margin: 0.5em;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#projects li a:hover {
+  background-color: #E2725B;
+  color: white;
+}
+
+#education h2 {
+  text-align: center;
+  margin: 3em 0 1em;
+}
+
+#education ul {
+  list-style: inside;
+  list-style-type: square;
+}
+
+#languages h2 {
+  text-align: center;
+  margin: 3em 0 1em;
+}
+
+#languages ul {
+  list-style: none;
+}
+
+#languages h4 {
+  margin: 1em 0 0.5em;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 3em;
+  justify-content: space-between;
+  background-color: #E2725B;
+  color: white;
+}
+
+footer a img {
+  width: 100px;
+  height: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.github_link:hover {
+  border-bottom: 1px solid white;
+}
